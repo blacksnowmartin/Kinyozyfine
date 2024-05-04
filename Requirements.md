@@ -14,7 +14,7 @@
 #### JavaScript Files:
 - `script.js`: JavaScript code for client-side interactions and form validations.
 - `axios.min.js`: Axios library for making HTTP requests to the backend.
-
+w
 #### Image Files:
 - Various images for logos, stylist profiles, etc.
 
