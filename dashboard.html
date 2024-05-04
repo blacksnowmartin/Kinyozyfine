@@ -6,12 +6,54 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        /* Additional styles specific to the dashboard */
+        /* Add your custom dashboard styles here */
+    </style>
 </head>
 <body>
-    <!-- Your HTML content here -->
-    <h1>Dashboard</h1>
-    <!-- Add your dashboard components and functionalities here -->
-    <!-- End of HTML content -->
+    <header>
+        <!-- Navbar or header section -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Appointments</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Main content section -->
+        <section class="container">
+            <h1>Welcome to Your Dashboard</h1>
+            <!-- Add various dashboard components and functionalities here -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Upcoming Appointments</h2>
+                    <!-- Display upcoming appointments here -->
+                    <ul>
+                        <li>Appointment 1</li>
+                        <li>Appointment 2</li>
+                        <!-- Add more appointments dynamically -->
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Recent Activity</h2>
+                    <!-- Display recent activity or notifications here -->
+                    <ul>
+                        <li>Activity 1</li>
+                        <li>Activity 2</li>
+                        <!-- Add more activities or notifications dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer section -->
+        <p>&copy; 2024 Hairstyling App</p>
+    </footer>
     <script src="axios.min.js"></script>
     <script src="script.js"></script>
 </body>
