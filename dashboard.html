@@ -4,33 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
-        /* Additional styles specific to the dashboard */
-        /* Add your custom dashboard styles here */
+        body {
+            background-color: #007bff;
+            background-image: linear-gradient(135deg, #007bff 0%, #00bfff 100%);
+        }
     </style>
 </head>
 <body>
     <header>
         <!-- Navbar or header section -->
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Appointments</a></li>
-                <li><a href="#">Logout</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Kinyozyfine</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Appointments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <!-- Main content section -->
         <section class="container">
-            <h1>Welcome to Your Dashboard</h1>
+            <h1 class="text-light">Welcome to Your Dashboard</h1>
             <!-- Add various dashboard components and functionalities here -->
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Upcoming Appointments</h2>
+                    <h2 class="text-light">Upcoming Appointments</h2>
                     <!-- Display upcoming appointments here -->
                     <ul>
                         <li>Appointment 1</li>
@@ -39,7 +56,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <h2>Recent Activity</h2>
+                    <h2 class="text-light">Recent Activity</h2>
                     <!-- Display recent activity or notifications here -->
                     <ul>
                         <li>Activity 1</li>
@@ -50,11 +67,15 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="bg-dark text-light">
         <!-- Footer section -->
-        <p>&copy; 2024 Hairstyling App</p>
+        <p class="text-center">&copy; 2024 Blacksnow Martin</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
+
