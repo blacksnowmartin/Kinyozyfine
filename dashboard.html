@@ -6,17 +6,28 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
-        html, body {
-            /* make the page transparent */
-            background-color: transparent;
+        body {
+            background-color: #f8f9fa; /* Set background color */
+            font-family: Arial, sans-serif; /* Set font */
         }
         .navbar-dark .navbar-nav .nav-link {
-            /* make the navbar text white */
-            color: white;
+            color: white; /* Set navbar link color */
         }
         .navbar-dark .navbar-nav .nav-link:hover {
-            /* make the navbar text hover white */
-            color: white;
+            color: white; /* Set navbar link hover color */
+        }
+        .main-content {
+            padding: 20px; /* Add padding to main content */
+        }
+        .card-header {
+            background-color: #343a40; /* Set card header background color */
+            color: white; /* Set card header text color */
+        }
+        .footer {
+            background-color: #343a40; /* Set footer background color */
+            color: white; /* Set footer text color */
+            padding: 10px 0; /* Add padding to footer */
+            text-align: center; /* Center align footer text */
         }
     </style>
 </head>
@@ -48,9 +59,9 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-content">
         <!-- Main content section -->
-        <section class="container">
+        <div class="container">
             <h1 class="text-dark">Welcome to Your Dashboard</h1>
             <!-- Add various dashboard components and functionalities here -->
             <div class="row">
@@ -81,11 +92,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
-    <footer class="bg-dark text-light">
+    <footer class="footer">
         <!-- Footer section -->
-        <p class="text-center">&copy; 2024 Blacksnow Martin</p>
+        <p>&copy; 2024 Blacksnow Martin</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -94,4 +105,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
