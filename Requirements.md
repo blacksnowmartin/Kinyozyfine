@@ -50,4 +50,10 @@ w
 - `seed.js`: Script for seeding initial data into the database.
 
 #### Environment Variables:
-- `.env`: File for storing environment variables such as database credentials and API keys. 
+- `.env`: File for storing environment variables such as database credentials and API keys.
+
+
+##### Additional Considerations
+- Defining on how the application will store its data
+- Option to consider using google drive
+- 
