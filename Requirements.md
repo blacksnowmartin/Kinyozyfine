@@ -55,5 +55,5 @@ w
 
 ##### Additional Considerations
 - Defining on how the application will store its data
-- Option to consider using google drive
-- 
+- Option to consider using Google drive
+- Enable a system admin view
