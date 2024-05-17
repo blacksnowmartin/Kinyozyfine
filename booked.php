@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "username";
     $password = "password";
-    $dbname = "database";
+    $dbname = "booking_db";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
