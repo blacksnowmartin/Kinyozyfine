@@ -16,20 +16,20 @@
         </div>
         <div class="row">
             <div class="col-sm-8 mx-auto">
-                <form class="shadow p-3 mb-5 bg-white rounded">
+                <form class="shadow p-3 mb-5 bg-white rounded" action="booked.php" method="post">
                     <div class="form-group">
                         <label for="stylist">Stylist</label>
-                        <select class="form-control" id="stylist">
+                        <select class="form-control" id="stylist" name="stylist">
                             <option>Select a stylist</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="date">Date</label>
-                        <input type="date" class="form-control" id="date">
+                        <input type="date" class="form-control" id="date" name="date">
                     </div>
                     <div class="form-group">
                         <label for="time">Time</label>
-                        <input type="time" class="form-control" id="time">
+                        <input type="time" class="form-control" id="time" name="time">
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Book</button>
                 </form>
